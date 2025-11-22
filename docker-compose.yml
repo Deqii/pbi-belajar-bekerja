@@ -1,0 +1,19 @@
+services:
+  databases:
+    image: mysql:9.4
+    ports:
+      - "3306:3306"
+    environment:
+      MYSQL_DATABASE: "pbi_belajar_bekerja"
+      MYSQL_PASSWORD: "root"
+      MYSQL_ROOT_PASSWORD: "root"
+  phpmyadmin:
+    image: phpmyadmin/phpmyadmin
+    environment:
+      PMA_HOST: databases
+      PMA_USER: root
+      PMA_PASSWORD: root
+      PMA_PORT: 3306
+      PMA_DATABASE: pbi_belajar_bekerja
+    ports:
+      - "8080:80"
