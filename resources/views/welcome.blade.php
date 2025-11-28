@@ -8,6 +8,7 @@
     @vite('resources/css/app.css')
 </head>
 <body>
-    <h1 class="text-3xl text-text1">Hello World!</h1>
+
+    <x-headline/>
 </body>
 </html>
