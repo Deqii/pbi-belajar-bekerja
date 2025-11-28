@@ -13,7 +13,10 @@ return new class extends Migration
     {
         Schema::create('programs', function (Blueprint $table) {
             $table->id();
-            $table->timestamps();
+            $table->foreignId('batch_id')->constrained('batchs')->onDelete('cascade');
+            $table->foreignId('occupacy_id')->constrained('occupacies')->onDelete('cascade');
+            $table->json('goals')->nullable(); 
+            $table->string('photo')->nullable();
         });
     }
 

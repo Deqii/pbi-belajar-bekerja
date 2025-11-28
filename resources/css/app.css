@@ -1,4 +1,4 @@
-@import 'tailwindcss';
+@import "tailwindcss";
 
 @source '../../vendor/laravel/framework/src/Illuminate/Pagination/resources/views/*.blade.php';
 @source '../../storage/framework/views/*.php';
@@ -6,6 +6,41 @@
 @source '../**/*.js';
 
 @theme {
-    --font-sans: 'Instrument Sans', ui-sans-serif, system-ui, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji',
-        'Segoe UI Symbol', 'Noto Color Emoji';
+    /* Font */
+    --font-sans: "Poppins";
+
+    /* Colors */
+    --color-primary-red: #e6202d;
+    --color-secondary-red: #fdebeb;
+    --color-background-white: #ffffff;
+    --color-text1: #2c2c2c;
+    --color-text2: #6e6e6e;
+    --color-inactive: #d9d9d9;
+    --color-white: #ffffff;
+    --color-success-green: #00b383;
+    --color-accent-green: #faeff0;
+    --color-security-blue: #2f80ed;
+    --color-accent-blue: #e3efff;
+    --color-orange: #ff9d5c;
+    --color-accent-orange: #fff7ed;
+    --color-light: #fff4bf;
+    --color-light-hover: #ffe98a;
+    --color-light-active: #ffe066;
+    --color-yellow: #ffcc00;
+    --color-yellow-hover: #e6b700;
+    --color-yellow-active: #cc9f00;
+    --color-dark: #a68300;
+    --color-dark-hover: #806700;
+    --color-dark-active: #665100;
+    --color-darker: #665000;
+    --color-neutral-100: #fffdf5;
+    --color-neutral-200: #f8f5ec;
+    --color-neutral-300: #efede4;
+    --color-neutral-400: #dcd8c7;
+    --color-neutral-500: #c2bfaa;
+    --color-neutral-600: #a9a592;
+    --color-neutral-700: #7f7a6a;
+    --color-neutral-800: #5b5647;
+    --color-neutral-900: #3a372d;
+    --color-neutral-1000: #1f1d18;
 }
