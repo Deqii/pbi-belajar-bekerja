@@ -12,6 +12,7 @@
 <body>
     <x-headline/>
     <x-programs/>
+    <x-ctacard/>
     <x-portfolio/>
 </body>
 </html>
