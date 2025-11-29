@@ -9,7 +9,7 @@
 
     @vite('resources/css/app.css')
 </head>
-<>
+<body>
     <x-headline/>
     <x-programs/>
     <x-portfolio/>
