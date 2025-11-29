@@ -10,5 +10,6 @@
 <body>
     <x-headline/>
     <x-programs/>
+    <x-ctacard/>
 </body>
 </html>
