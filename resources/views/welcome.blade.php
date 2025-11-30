@@ -14,5 +14,6 @@
     <x-programs/>
     <x-ctacard/>
     <x-portfolio/>
+    <x-benefit/>
 </body>
 </html>
