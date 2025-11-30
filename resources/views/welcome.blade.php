@@ -17,5 +17,6 @@
     <x-benefit/>
     <x-testimoni/>
     <x-alumnivideo/>
+    <x-alumni/>
 </body>
 </html>
