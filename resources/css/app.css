@@ -44,3 +44,18 @@
     --color-neutral-900: #3a372d;
     --color-neutral-1000: #1f1d18;
 }
+
+@layer utilities {
+    @keyframes slideLeftToRight {
+        0% {
+            transform: translateX(100%);
+        }
+        100% {
+            transform: translateX(-100%);
+        }
+    }
+
+    .animate-slide-left {
+        animation: slideLeftToRight 8s linear infinite;
+    }
+}
