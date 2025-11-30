@@ -15,5 +15,6 @@
     <x-ctacard/>
     <x-portfolio/>
     <x-benefit/>
+    <x-testimoni/>
 </body>
 </html>
