@@ -16,5 +16,6 @@
     <x-portfolio/>
     <x-benefit/>
     <x-testimoni/>
+    <x-alumnivideo/>
 </body>
 </html>
