@@ -18,5 +18,7 @@
     <x-testimoni/>
     <x-alumnivideo/>
     <x-alumni/>
+    <x-community/>
+    <x-footer/>
 </body>
 </html>
