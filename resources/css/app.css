@@ -48,14 +48,41 @@
 @layer utilities {
     @keyframes slideLeftToRight {
         0% {
-            transform: translateX(100%);
+            transform: translateX(0);
+        }
+        50% {
+            transform: translateX(-140%);
         }
         100% {
-            transform: translateX(-100%);
+            transform: translateX(-280%);
         }
     }
 
     .animate-slide-left {
-        animation: slideLeftToRight 8s linear infinite;
+        animation: slideLeftToRight 12s linear infinite;
     }
+
+    @keyframes slide-left {
+        0% {
+            transform: translateX(0);
+        }
+        50% {
+            transform: translateX(-125%);
+        }
+        100% {
+            transform: translateX(-250%);
+        }
+    }
+
+    .marquee {
+        animation: slide-left 12s linear infinite;
+    }
+
+    .marquee:hover {
+        animation-play-state: paused;
+    }
+}
+
+* {
+    font-family: Poppins, sans-serif;
 }

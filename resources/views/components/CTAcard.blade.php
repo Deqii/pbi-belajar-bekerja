@@ -1,5 +1,5 @@
 <div class="flex mt-32 w-5/6 gap-8 mx-auto">
-    <section class="w-1/2 mx-auto text-right shadow-2xl p-8 rounded-xl">
+    <section class="w-1/2 mx-auto text-right shadow-2xl p-8 rounded-xl bg-gradient-to-r from-[#FFE89B] to white bg-[length:50%_100%] bg-no-repeat">
         <h3 class="text-3xl text-text1 font-semibold">Mau langsung coba tanpa <br/> rugi?</h3>
         <p class="font-medium mt-3">Mini PBI siap kasih pengalaman nyata supaya kamu makin <br/> yakin serunya upgrade skill di Project-Based Internship!</p>
 
@@ -9,7 +9,7 @@
         </div>
     </section>
 
-    <section class="w-1/2 mx-auto text-left shadow-2xl p-8 rounded-xl">
+    <section class="w-1/2 mx-auto text-left shadow-2xl p-8 rounded-xl bg-gradient-to-r from-[#FFE89B] to white bg-[length:50%_100%] bg-no-repeat">
         <h3 class="text-3xl text-text1 font-semibold">Masih galau mau pilih <br/> program PBI?</h3>
         <p class="font-medium mt-3">Yuk, cobain Future You Personality Test dan temukan project- <br/> based internship yang cocok untuk mulai pengalaman barumu!</p>
 

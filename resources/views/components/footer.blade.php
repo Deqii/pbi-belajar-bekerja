@@ -78,7 +78,7 @@
     }
 </style>
 
-<footer style="background-color: #f9f7ed; margin-top: 300px;" class="border-t border-neutral-200 font-sans text-[#2c2c2c] pb-40 pt-40">
+<footer style="background-color: #f9f7ed; margin-top: 200px;" class="border-t border-neutral-200 font-sans text-[#2c2c2c] pb-40 pt-40">
     <div class="container mx-auto px-4 max-w-7xl">
 
         <div class="footer-layout items-start">

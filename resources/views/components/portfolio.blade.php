@@ -1,48 +1,19 @@
-<div>
+<div class="w-5/6 mx-auto mt-32">
     <section class="mt-32 text-center">
-        <h2 class="text-text1 font-semibold text-5xl">Mulai Tahun Baru dengan Pengalaman Baru</h2>
-        <p class="text-text1 text-[20px] mt-5">Lihat karya nyata para talenta PBI yang menjadikan resolusi karier mereka jadi kenyataan.</p>
+        <h2 class="text-text1 font-semibold text-[40px]">Karya Inspiratif dari Talenta PBI</h2>
+        <p class="text-text1 text-[17px] font-medium mt-2">Lihat portofolionya dan buktiin sendiri kalau PBI bukan cuma magang online biasa.</p>
     </section>
 
-    <section x-data="{ activeSlide: 1, slides: 3 }" x-init="setInterval(() => { activeSlide = activeSlide === slides ? 1 : activeSlide + 1 }, 4000)" class="relative w-5/6 mx-auto overflow-hidden rounded-lg mt-12">
-
-        <!-- Slides -->
-        <div class="relative h-64">
-            <!-- Slide 1 -->
-            <div x-show="activeSlide === 1" class="absolute inset-0 transition-all duration-3000">
-                <img src="https://picsum.photos/800/400?random=1" class="w-full h-full object-cover" />
-            </div>
-
-            <!-- Slide 2 -->
-            <div x-show="activeSlide === 2" class="absolute inset-0 transition-all duration-3000">
-                <img src="https://picsum.photos/800/400?random=2" class="w-full h-full object-cover" />
-            </div>
-
-            <!-- Slide 3 -->
-            <div x-show="activeSlide === 3" class="absolute inset-0 transition-all duration-3000">
-                <img src="https://picsum.photos/800/400?random=3" class="w-full h-full object-cover" />
-            </div>
-        </div>
-
-        <!-- Prev Button -->
-        <button @click="activeSlide = activeSlide === 1 ? slides : activeSlide - 1"
-            class="absolute left-2 top-1/2 -translate-y-1/2 text-text1 bg-white text-6xl px-4 py-2 rounded-full shadow">
-            ‹
-        </button>
-
-        <!-- Next Button -->
-        <button @click="activeSlide = activeSlide === slides ? 1 : activeSlide + 1"
-            class="absolute right-2 top-1/2 -translate-y-1/2 text-text1 bg-white text-6xl px-4 py-2 rounded-full shadow">
-            ›
-        </button>
-
-        <!-- Indicators -->
-        <div class="absolute bottom-3 left-1/2 -translate-x-1/2 flex space-x-2">
-            <template x-for="i in slides">
-                <div @click="activeSlide = i" class="w-3 h-3 rounded-full cursor-pointer"
-                    :class="activeSlide === i ? 'bg-white' : 'bg-gray-400/50'">
+    <section class="mt-4 shadow-xl rounded-xl">
+        <div class="p-8 flex flex-col justify-center">
+            <img src="./images/portfolio.png" alt="portfolio" class="w-full h-full rounded-xl object-fit">
+            <div class="flex items-center">
+                <div class="w-[90%] mt-6">
+                    <h4 class="text-[24px] font-semibold">Aisyah Az Zahra | UI/UX Designer</h4>
+                    <p class="text-[16px]">Merancang aplikasi keamanan sosial dengan fitur pemetaan kriminal, pelacakan teman, dan konten edukasi <br> yang intuitif dan informatif demi meningkatkan rasa aman pengguna.</p>
                 </div>
-            </template>
+                <button class="border-2 border-text1 font-semibold p-2 rounded-xl cursor-pointer hover:bg-gray-100 mt-4">See More Our Project</button>
+            </div>
         </div>
     </section>
 </div>
