@@ -1,5 +1,5 @@
-<div class="w-5/6 mx-auto">
-    <section class="mt-32 text-center">
+<div id="programs" class="w-5/6 mx-auto">
+    <section class="text-center">
         <h2 class="text-text1 font-semibold text-[40px]">New Year New You</h2>
         <p class="text-text1 text-[17px] font-medium mt-2">Ubah resolusi tahun barumu menjadi nyata dengan program Project-Based Internship di bawah ini.</p>
     </section>

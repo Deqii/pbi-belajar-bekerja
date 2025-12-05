@@ -18,9 +18,10 @@
                             <img src="{{ asset('images/community/meeting.png') }}" alt="Diskusi Komunitas" style="width: 100%; height: 100%; object-fit: cover; transition: transform 0.3s ease;" onmouseover="this.style.transform='scale(1.1)'" onmouseout="this.style.transform='scale(1)'">
                         </div>
                         
-                        <div style="background-color: #FFE066; padding: 1rem; border-radius: 8px; box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -2px rgba(0, 0, 0, 0.1); height: 350px; width: 100%;">
-                            <h4 class="font-semibold text-[36px] text-base mb-1 leading-tight">Event Eksklusif Alumni</h4>
-                            <p class="text-[24px] leading-relaxed">Dapetin akses premium khusus alumni untuk event-event keren berikutnya.</p>
+                        <div style="padding: 1rem; border-radius: 8px; box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -2px rgba(0, 0, 0, 0.1); height: 350px; width: 100%;" class="bg-gradient-to-t from-[#FFCC00] to-white"> 
+                            <h4 class="font-semibold text-[36px] text-base mb-1 leading-tight mt-4 ml-2">Event Eksklusif Alumni</h4>
+                            <p class="text-[18px] font-medium leading-[1.3] ml-2">Dapetin akses premium khusus <br> alumni untuk event-event keren <br> berikutnya.</p>
+                            <img src="./images/community/chat.png" alt="" class="w-[240px] h-[240px] ml-44 -mt-16">
                         </div>
                     </div>
                     
@@ -29,9 +30,10 @@
                     </div>
                     
                     <div style="display: flex; flex-direction: column; gap: 16px;">
-                        <div style="background-color: #FFF4BF; padding: 1rem; border-radius: 8px; box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -2px rgba(0, 0, 0, 0.1); height: 350px; width: 100%;">
-                            <h4 class="font-semibold text-[36px] text-base mb-1 leading-tight">Bangun Relasi & <br> Skill</h4>
-                            <p class="text-[24px] leading-relaxed">Buka koneksi baru, belajar <br> dari orang hebat, dan <br> upgrade dirimu!</p>
+                        <div style="padding: 1rem; border-radius: 8px; box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -2px rgba(0, 0, 0, 0.1); height: 350px; width: 100%;" class="bg-gradient-to-b from-[#FFCC00]">
+                            <img src="./images/community/talk.png" alt="" class="w-[240px] h-[240px] ml-44 -mt-32">
+                            <h4 class="font-semibold text-[36px] text-base mb-1 leading-tight ml-2">Bangun Relasi & <br> Skill</h4>
+                            <p class="text-[18px] leading-relaxed ml-2">Buka koneksi baru, belajar dari orang <br> hebat, dan upgrade dirimu!</p>
                         </div>
                         
                         <div style="height: 350px; border-radius: 8px; width: 100%; overflow: hidden;">

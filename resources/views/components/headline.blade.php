@@ -1,4 +1,4 @@
-<div class="bg-gradient-to-b from-[#FFE89B] to white mt-16">
+<div class="bg-gradient-to-b from-[#FFE89B] to white mb-32 pt-32">
     <div class="w-5/6 mx-auto">
         <section class="flex">
             <article class="flex flex-col h-full w-1/2 p-4">

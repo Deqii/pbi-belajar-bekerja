@@ -10,6 +10,7 @@
     @vite('resources/css/app.css')
 </head>
 <body>
+    <x-navbar/>
     <x-headline/>
     <x-programs/>
     <x-ctacard/>

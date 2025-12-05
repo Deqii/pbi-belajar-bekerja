@@ -8,8 +8,8 @@
     <div class="w-[98.5%] mx-auto py-10">
         <div class="relative group">
             <button id="button-left" 
-                class="absolute left-4 top-1/2 -translate-y-1/2 
-                bg-white text-text2 px-4 py-2 rounded-full z-10 border-text2 border 
+                class="absolute text-2xl left-2 top-1/2 -translate-y-1/2 
+                bg-[#FFE98A] text-text2 px-4 py-2 rounded-full z-10 border-text2 border 
                 opacity-0 group-hover:opacity-100 transition-opacity duration-300 cursor-pointer">
                 <
             </button>
@@ -39,8 +39,8 @@
 
             </div>
             <button id="button-right"
-                class="absolute -right-4 top-1/2 -translate-y-1/2 
-                bg-white text-text2 px-4 py-2 rounded-full z-10 border-text2 border
+                class="absolute text-2xl -right-6 top-1/2 -translate-y-1/2 
+                bg-[#FFE98A] text-text2 px-4 py-2 rounded-full z-10 border-text2 border
                 opacity-0 group-hover:opacity-100 transition-opacity duration-300 cursor-pointer">
                 >
             </button>
