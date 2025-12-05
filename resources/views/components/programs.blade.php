@@ -14,36 +14,38 @@
                 <
             </button>
             <div id="slider"
-                class="flex gap-4 overflow-x-hidden scroll-smooth px-10">
+                class="flex gap-4 overflow-x-hidden scroll-smooth px-10 w-[91.5%] mx-auto">
 
-                @foreach(range(1, 8) as $item)
+                <!-- Card 1 -->
                     <div class="bg-white rounded-xl shadow-xl border-x-background-white border">
-                        <img src="https://pbi.belajarbekerja.com/upload/project/gambar_project/afb76a4a6bfb7b237548ee4ae46691c6.png" alt="placeholder" class="rounded-t-xl w-full">
-                        <h3 class="text-[18px] font-semibold ml-4 my-2 mt-3">Accounting {{ $item }}</h3>
+                        <img src="./images/programs/accounting.png" alt="placeholder" class="rounded-t-xl w-full h-[180px]">
+                        <h3 class="text-[24px] font-semibold ml-4 my-2 mt-3">Accounting</h3>
                         <div class="flex items-center">
                             <img src="./icon/date.png" alt="" class="w-6 h-6 m-2 ml-4">
-                            <p class="text-text2 text-[14px]">8 September 2025</p>
+                            <p class="text-text2 text-[16px]">8 September 2025</p>
                         </div>
                         
-                        <div class="flex items-center -mb-4 p-2">
-                            <img src="./icon/check.png" alt="" class="w-6 h-6 ml-2 mr-3">
-                            <p class="text-text1 text-[14px] leading-[1.6]">Real Case dengan Big Data</p>
-                        </div>
-                        <div class="flex items-center -mb-4 p-2">
-                            <img src="./icon/check.png" alt="" class="w-6 h-6 m-2 mr-3">
-                            <p class="text-text1 text-[14px] leading-[1.6]">Kuasai Microsoft Excel dan Dashboard</p>
-                        </div>
-                        <div class="flex items-center -mb-4 p-2">
-                            <img src="./icon/check.png" alt="" class="w-6 h-6 m-2 mr-3">
-                            <p class="text-text1 text-[14px] leading-[1.6]">Mengembangkan Data Storytelling</p>
-                        </div>
-                        <div class="flex items-center -mb-4 p-2">
-                            <img src="./icon/check.png" alt="" class="w-6 h-6 m-2 mr-3">
-                            <p class="text-text1 text-[14px] leading-[1.6]">Membentuk Mindset Sebagai Data Analyst</p>
-                        </div>
+                       <div class="w-4/5">
+                            <div class="flex items-center -mb-4 p-2">
+                                <img src="./icon/check.png" alt="" class="w-6 h-6 ml-2 mr-3">
+                                <p class="text-text1 text-[16px] leading-[1.6]">Real Case dengan Big Data</p>
+                            </div>
+                            <div class="flex items-center -mb-4 p-2">
+                                <img src="./icon/check.png" alt="" class="w-6 h-6 m-2 mr-3">
+                                <p class="text-text1 text-[16px] leading-[1.6]">Kuasai Microsoft Excel dan Dashboard</p>
+                            </div>
+                            <div class="flex items-center -mb-4 p-2">
+                                <img src="./icon/check.png" alt="" class="w-6 h-6 m-2 mr-3">
+                                <p class="text-text1 text-[16px] leading-[1.6]">Mengembangkan Data Storytelling</p>
+                            </div>
+                            <div class="flex items-center -mb-4 p-2">
+                                <img src="./icon/check.png" alt="" class="w-6 h-6 m-2 mr-3">
+                                <p class="text-text1 text-[16px] leading-[1.6]">Membentuk Mindset Sebagai Data Analyst</p>
+                            </div>
+                       </div>
 
                         <div class="flex items-center gap-3 mt-12 ml-4">
-                            <p class="text-text1 text-[14px] mr-2 ">Belajar dari Praktisi</p>
+                            <p class="text-text1 text-[16px] mr-2 ">Belajar dari Praktisi</p>
                             <div class="w-11 h-11 rounded-full shadow-md bg-white border border-text1 flex items-center justify-center z-1 -mr-5">
                                 <img src="./icon/gojek.png" alt="logo" class="w-7 h-7 object-contain">
                             </div>
@@ -55,9 +57,316 @@
                             </div>
                         </div>
 
-                        <button class="bg-yellow text-text1 font-semibold w-[260px] h-[50px] rounded-sm mt-4 p-2 cursor-pointer hover:bg-yellow-hover ml-4 my-6 mr-4">Lihat Detail</button>
+                        <button class="bg-yellow text-text1 font-semibold w-[280px] h-[50px] rounded-sm mt-4 p-2 cursor-pointer hover:bg-yellow-hover ml-4 my-6">Lihat Detail</button>
                     </div>
-                @endforeach
+
+                <!-- Card 2 -->
+                    <div class="bg-white rounded-xl shadow-xl border-x-background-white border">
+                        <img src="./images/programs/content-writing.png" alt="placeholder" class="rounded-t-xl w-full h-[180px]">
+                        <h3 class="text-[24px] font-semibold ml-4 my-2 mt-3">Content Writing</h3>
+                        <div class="flex items-center">
+                            <img src="./icon/date.png" alt="" class="w-6 h-6 m-2 ml-4">
+                            <p class="text-text2 text-[16px]">8 September 2025</p>
+                        </div>
+                        
+                       <div class="w-4/5">
+                            <div class="flex items-center -mb-4 p-2">
+                                <img src="./icon/check.png" alt="" class="w-6 h-6 ml-2 mr-3">
+                                <p class="text-text1 text-[16px] leading-[1.6]">Real Case dengan Big Data</p>
+                            </div>
+                            <div class="flex items-center -mb-4 p-2">
+                                <img src="./icon/check.png" alt="" class="w-6 h-6 m-2 mr-3">
+                                <p class="text-text1 text-[16px] leading-[1.6]">Kuasai Microsoft Excel dan Dashboard</p>
+                            </div>
+                            <div class="flex items-center -mb-4 p-2">
+                                <img src="./icon/check.png" alt="" class="w-6 h-6 m-2 mr-3">
+                                <p class="text-text1 text-[16px] leading-[1.6]">Mengembangkan Data Storytelling</p>
+                            </div>
+                            <div class="flex items-center -mb-4 p-2">
+                                <img src="./icon/check.png" alt="" class="w-6 h-6 m-2 mr-3">
+                                <p class="text-text1 text-[16px] leading-[1.6]">Membentuk Mindset Sebagai Data Analyst</p>
+                            </div>
+                       </div>
+
+                        <div class="flex items-center gap-3 mt-12 ml-4">
+                            <p class="text-text1 text-[16px] mr-2 ">Belajar dari Praktisi</p>
+                            <div class="w-11 h-11 rounded-full shadow-md bg-white border border-text1 flex items-center justify-center z-1 -mr-5">
+                                <img src="./icon/gojek.png" alt="logo" class="w-7 h-7 object-contain">
+                            </div>
+                            <div class="w-11 h-11 rounded-full shadow-md bg-white border border-text1 flex items-center justify-center z-2 -mr-5">
+                                <img src="./icon/gojek.png" alt="logo" class="w-7 h-7 object-contain">
+                            </div>
+                            <div class="w-11 h-11 rounded-full shadow-md bg-white border border-text1 flex items-center justify-center z-3 -mr-5">
+                                <img src="./icon/gojek.png" alt="logo" class="w-7 h-7 object-contain">
+                            </div>
+                        </div>
+
+                        <button class="bg-yellow text-text1 font-semibold w-[280px] h-[50px] rounded-sm mt-4 p-2 cursor-pointer hover:bg-yellow-hover ml-4 my-6">Lihat Detail</button>
+                    </div>
+
+                <!-- Card 3 -->
+                    <div class="bg-white rounded-xl shadow-xl border-x-background-white border">
+                        <img src="./images/programs/data-analytics.png" alt="placeholder" class="rounded-t-xl w-full h-[180px]">
+                        <h3 class="text-[24px] font-semibold ml-4 my-2 mt-3">Data Analytics</h3>
+                        <div class="flex items-center">
+                            <img src="./icon/date.png" alt="" class="w-6 h-6 m-2 ml-4">
+                            <p class="text-text2 text-[16px]">8 September 2025</p>
+                        </div>
+                        
+                       <div class="w-4/5">
+                            <div class="flex items-center -mb-4 p-2">
+                                <img src="./icon/check.png" alt="" class="w-6 h-6 ml-2 mr-3">
+                                <p class="text-text1 text-[16px] leading-[1.6]">Real Case dengan Big Data</p>
+                            </div>
+                            <div class="flex items-center -mb-4 p-2">
+                                <img src="./icon/check.png" alt="" class="w-6 h-6 m-2 mr-3">
+                                <p class="text-text1 text-[16px] leading-[1.6]">Kuasai Microsoft Excel dan Dashboard</p>
+                            </div>
+                            <div class="flex items-center -mb-4 p-2">
+                                <img src="./icon/check.png" alt="" class="w-6 h-6 m-2 mr-3">
+                                <p class="text-text1 text-[16px] leading-[1.6]">Mengembangkan Data Storytelling</p>
+                            </div>
+                            <div class="flex items-center -mb-4 p-2">
+                                <img src="./icon/check.png" alt="" class="w-6 h-6 m-2 mr-3">
+                                <p class="text-text1 text-[16px] leading-[1.6]">Membentuk Mindset Sebagai Data Analyst</p>
+                            </div>
+                       </div>
+
+                        <div class="flex items-center gap-3 mt-12 ml-4">
+                            <p class="text-text1 text-[16px] mr-2 ">Belajar dari Praktisi</p>
+                            <div class="w-11 h-11 rounded-full shadow-md bg-white border border-text1 flex items-center justify-center z-1 -mr-5">
+                                <img src="./icon/gojek.png" alt="logo" class="w-7 h-7 object-contain">
+                            </div>
+                            <div class="w-11 h-11 rounded-full shadow-md bg-white border border-text1 flex items-center justify-center z-2 -mr-5">
+                                <img src="./icon/gojek.png" alt="logo" class="w-7 h-7 object-contain">
+                            </div>
+                            <div class="w-11 h-11 rounded-full shadow-md bg-white border border-text1 flex items-center justify-center z-3 -mr-5">
+                                <img src="./icon/gojek.png" alt="logo" class="w-7 h-7 object-contain">
+                            </div>
+                        </div>
+
+                        <button class="bg-yellow text-text1 font-semibold w-[280px] h-[50px] rounded-sm mt-4 p-2 cursor-pointer hover:bg-yellow-hover ml-4 my-6">Lihat Detail</button>
+                    </div>
+
+                <!-- Card 4 -->
+                    <div class="bg-white rounded-xl shadow-xl border-x-background-white border">
+                        <img src="./images/programs/digital-marketing.png" alt="placeholder" class="rounded-t-xl w-full h-[180px]">
+                        <h3 class="text-[24px] font-semibold ml-4 my-2 mt-3">Digital Marketing</h3>
+                        <div class="flex items-center">
+                            <img src="./icon/date.png" alt="" class="w-6 h-6 m-2 ml-4">
+                            <p class="text-text2 text-[16px]">8 September 2025</p>
+                        </div>
+                        
+                       <div class="w-4/5">
+                            <div class="flex items-center -mb-4 p-2">
+                                <img src="./icon/check.png" alt="" class="w-6 h-6 ml-2 mr-3">
+                                <p class="text-text1 text-[16px] leading-[1.6]">Real Case dengan Big Data</p>
+                            </div>
+                            <div class="flex items-center -mb-4 p-2">
+                                <img src="./icon/check.png" alt="" class="w-6 h-6 m-2 mr-3">
+                                <p class="text-text1 text-[16px] leading-[1.6]">Kuasai Microsoft Excel dan Dashboard</p>
+                            </div>
+                            <div class="flex items-center -mb-4 p-2">
+                                <img src="./icon/check.png" alt="" class="w-6 h-6 m-2 mr-3">
+                                <p class="text-text1 text-[16px] leading-[1.6]">Mengembangkan Data Storytelling</p>
+                            </div>
+                            <div class="flex items-center -mb-4 p-2">
+                                <img src="./icon/check.png" alt="" class="w-6 h-6 m-2 mr-3">
+                                <p class="text-text1 text-[16px] leading-[1.6]">Membentuk Mindset Sebagai Data Analyst</p>
+                            </div>
+                       </div>
+
+                        <div class="flex items-center gap-3 mt-12 ml-4">
+                            <p class="text-text1 text-[16px] mr-2 ">Belajar dari Praktisi</p>
+                            <div class="w-11 h-11 rounded-full shadow-md bg-white border border-text1 flex items-center justify-center z-1 -mr-5">
+                                <img src="./icon/gojek.png" alt="logo" class="w-7 h-7 object-contain">
+                            </div>
+                            <div class="w-11 h-11 rounded-full shadow-md bg-white border border-text1 flex items-center justify-center z-2 -mr-5">
+                                <img src="./icon/gojek.png" alt="logo" class="w-7 h-7 object-contain">
+                            </div>
+                            <div class="w-11 h-11 rounded-full shadow-md bg-white border border-text1 flex items-center justify-center z-3 -mr-5">
+                                <img src="./icon/gojek.png" alt="logo" class="w-7 h-7 object-contain">
+                            </div>
+                        </div>
+
+                        <button class="bg-yellow text-text1 font-semibold w-[280px] h-[50px] rounded-sm mt-4 p-2 cursor-pointer hover:bg-yellow-hover ml-4 my-6">Lihat Detail</button>
+                    </div>
+                    
+                <!-- Card 1 -->
+                    <div class="bg-white rounded-xl shadow-xl border-x-background-white border">
+                        <img src="./images/programs/accounting.png" alt="placeholder" class="rounded-t-xl w-full h-[180px]">
+                        <h3 class="text-[24px] font-semibold ml-4 my-2 mt-3">Accounting</h3>
+                        <div class="flex items-center">
+                            <img src="./icon/date.png" alt="" class="w-6 h-6 m-2 ml-4">
+                            <p class="text-text2 text-[16px]">8 September 2025</p>
+                        </div>
+                        
+                       <div class="w-4/5">
+                            <div class="flex items-center -mb-4 p-2">
+                                <img src="./icon/check.png" alt="" class="w-6 h-6 ml-2 mr-3">
+                                <p class="text-text1 text-[16px] leading-[1.6]">Real Case dengan Big Data</p>
+                            </div>
+                            <div class="flex items-center -mb-4 p-2">
+                                <img src="./icon/check.png" alt="" class="w-6 h-6 m-2 mr-3">
+                                <p class="text-text1 text-[16px] leading-[1.6]">Kuasai Microsoft Excel dan Dashboard</p>
+                            </div>
+                            <div class="flex items-center -mb-4 p-2">
+                                <img src="./icon/check.png" alt="" class="w-6 h-6 m-2 mr-3">
+                                <p class="text-text1 text-[16px] leading-[1.6]">Mengembangkan Data Storytelling</p>
+                            </div>
+                            <div class="flex items-center -mb-4 p-2">
+                                <img src="./icon/check.png" alt="" class="w-6 h-6 m-2 mr-3">
+                                <p class="text-text1 text-[16px] leading-[1.6]">Membentuk Mindset Sebagai Data Analyst</p>
+                            </div>
+                       </div>
+
+                        <div class="flex items-center gap-3 mt-12 ml-4">
+                            <p class="text-text1 text-[16px] mr-2 ">Belajar dari Praktisi</p>
+                            <div class="w-11 h-11 rounded-full shadow-md bg-white border border-text1 flex items-center justify-center z-1 -mr-5">
+                                <img src="./icon/gojek.png" alt="logo" class="w-7 h-7 object-contain">
+                            </div>
+                            <div class="w-11 h-11 rounded-full shadow-md bg-white border border-text1 flex items-center justify-center z-2 -mr-5">
+                                <img src="./icon/gojek.png" alt="logo" class="w-7 h-7 object-contain">
+                            </div>
+                            <div class="w-11 h-11 rounded-full shadow-md bg-white border border-text1 flex items-center justify-center z-3 -mr-5">
+                                <img src="./icon/gojek.png" alt="logo" class="w-7 h-7 object-contain">
+                            </div>
+                        </div>
+
+                        <button class="bg-yellow text-text1 font-semibold w-[280px] h-[50px] rounded-sm mt-4 p-2 cursor-pointer hover:bg-yellow-hover ml-4 my-6">Lihat Detail</button>
+                    </div>
+
+                <!-- Card 2 -->
+                    <div class="bg-white rounded-xl shadow-xl border-x-background-white border">
+                        <img src="./images/programs/content-writing.png" alt="placeholder" class="rounded-t-xl w-full h-[180px]">
+                        <h3 class="text-[24px] font-semibold ml-4 my-2 mt-3">Content Writing</h3>
+                        <div class="flex items-center">
+                            <img src="./icon/date.png" alt="" class="w-6 h-6 m-2 ml-4">
+                            <p class="text-text2 text-[16px]">8 September 2025</p>
+                        </div>
+                        
+                       <div class="w-4/5">
+                            <div class="flex items-center -mb-4 p-2">
+                                <img src="./icon/check.png" alt="" class="w-6 h-6 ml-2 mr-3">
+                                <p class="text-text1 text-[16px] leading-[1.6]">Real Case dengan Big Data</p>
+                            </div>
+                            <div class="flex items-center -mb-4 p-2">
+                                <img src="./icon/check.png" alt="" class="w-6 h-6 m-2 mr-3">
+                                <p class="text-text1 text-[16px] leading-[1.6]">Kuasai Microsoft Excel dan Dashboard</p>
+                            </div>
+                            <div class="flex items-center -mb-4 p-2">
+                                <img src="./icon/check.png" alt="" class="w-6 h-6 m-2 mr-3">
+                                <p class="text-text1 text-[16px] leading-[1.6]">Mengembangkan Data Storytelling</p>
+                            </div>
+                            <div class="flex items-center -mb-4 p-2">
+                                <img src="./icon/check.png" alt="" class="w-6 h-6 m-2 mr-3">
+                                <p class="text-text1 text-[16px] leading-[1.6]">Membentuk Mindset Sebagai Data Analyst</p>
+                            </div>
+                       </div>
+
+                        <div class="flex items-center gap-3 mt-12 ml-4">
+                            <p class="text-text1 text-[16px] mr-2 ">Belajar dari Praktisi</p>
+                            <div class="w-11 h-11 rounded-full shadow-md bg-white border border-text1 flex items-center justify-center z-1 -mr-5">
+                                <img src="./icon/gojek.png" alt="logo" class="w-7 h-7 object-contain">
+                            </div>
+                            <div class="w-11 h-11 rounded-full shadow-md bg-white border border-text1 flex items-center justify-center z-2 -mr-5">
+                                <img src="./icon/gojek.png" alt="logo" class="w-7 h-7 object-contain">
+                            </div>
+                            <div class="w-11 h-11 rounded-full shadow-md bg-white border border-text1 flex items-center justify-center z-3 -mr-5">
+                                <img src="./icon/gojek.png" alt="logo" class="w-7 h-7 object-contain">
+                            </div>
+                        </div>
+
+                        <button class="bg-yellow text-text1 font-semibold w-[280px] h-[50px] rounded-sm mt-4 p-2 cursor-pointer hover:bg-yellow-hover ml-4 my-6">Lihat Detail</button>
+                    </div>
+
+                <!-- Card 3 -->
+                    <div class="bg-white rounded-xl shadow-xl border-x-background-white border">
+                        <img src="./images/programs/data-analytics.png" alt="placeholder" class="rounded-t-xl w-full h-[180px]">
+                        <h3 class="text-[24px] font-semibold ml-4 my-2 mt-3">Data Analytics</h3>
+                        <div class="flex items-center">
+                            <img src="./icon/date.png" alt="" class="w-6 h-6 m-2 ml-4">
+                            <p class="text-text2 text-[16px]">8 September 2025</p>
+                        </div>
+                        
+                       <div class="w-4/5">
+                            <div class="flex items-center -mb-4 p-2">
+                                <img src="./icon/check.png" alt="" class="w-6 h-6 ml-2 mr-3">
+                                <p class="text-text1 text-[16px] leading-[1.6]">Real Case dengan Big Data</p>
+                            </div>
+                            <div class="flex items-center -mb-4 p-2">
+                                <img src="./icon/check.png" alt="" class="w-6 h-6 m-2 mr-3">
+                                <p class="text-text1 text-[16px] leading-[1.6]">Kuasai Microsoft Excel dan Dashboard</p>
+                            </div>
+                            <div class="flex items-center -mb-4 p-2">
+                                <img src="./icon/check.png" alt="" class="w-6 h-6 m-2 mr-3">
+                                <p class="text-text1 text-[16px] leading-[1.6]">Mengembangkan Data Storytelling</p>
+                            </div>
+                            <div class="flex items-center -mb-4 p-2">
+                                <img src="./icon/check.png" alt="" class="w-6 h-6 m-2 mr-3">
+                                <p class="text-text1 text-[16px] leading-[1.6]">Membentuk Mindset Sebagai Data Analyst</p>
+                            </div>
+                       </div>
+
+                        <div class="flex items-center gap-3 mt-12 ml-4">
+                            <p class="text-text1 text-[16px] mr-2 ">Belajar dari Praktisi</p>
+                            <div class="w-11 h-11 rounded-full shadow-md bg-white border border-text1 flex items-center justify-center z-1 -mr-5">
+                                <img src="./icon/gojek.png" alt="logo" class="w-7 h-7 object-contain">
+                            </div>
+                            <div class="w-11 h-11 rounded-full shadow-md bg-white border border-text1 flex items-center justify-center z-2 -mr-5">
+                                <img src="./icon/gojek.png" alt="logo" class="w-7 h-7 object-contain">
+                            </div>
+                            <div class="w-11 h-11 rounded-full shadow-md bg-white border border-text1 flex items-center justify-center z-3 -mr-5">
+                                <img src="./icon/gojek.png" alt="logo" class="w-7 h-7 object-contain">
+                            </div>
+                        </div>
+
+                        <button class="bg-yellow text-text1 font-semibold w-[280px] h-[50px] rounded-sm mt-4 p-2 cursor-pointer hover:bg-yellow-hover ml-4 my-6">Lihat Detail</button>
+                    </div>
+
+                <!-- Card 4 -->
+                    <div class="bg-white rounded-xl shadow-xl border-x-background-white border">
+                        <img src="./images/programs/digital-marketing.png" alt="placeholder" class="rounded-t-xl w-full h-[180px]">
+                        <h3 class="text-[24px] font-semibold ml-4 my-2 mt-3">Digital Marketing</h3>
+                        <div class="flex items-center">
+                            <img src="./icon/date.png" alt="" class="w-6 h-6 m-2 ml-4">
+                            <p class="text-text2 text-[16px]">8 September 2025</p>
+                        </div>
+                        
+                       <div class="w-4/5">
+                            <div class="flex items-center -mb-4 p-2">
+                                <img src="./icon/check.png" alt="" class="w-6 h-6 ml-2 mr-3">
+                                <p class="text-text1 text-[16px] leading-[1.6]">Real Case dengan Big Data</p>
+                            </div>
+                            <div class="flex items-center -mb-4 p-2">
+                                <img src="./icon/check.png" alt="" class="w-6 h-6 m-2 mr-3">
+                                <p class="text-text1 text-[16px] leading-[1.6]">Kuasai Microsoft Excel dan Dashboard</p>
+                            </div>
+                            <div class="flex items-center -mb-4 p-2">
+                                <img src="./icon/check.png" alt="" class="w-6 h-6 m-2 mr-3">
+                                <p class="text-text1 text-[16px] leading-[1.6]">Mengembangkan Data Storytelling</p>
+                            </div>
+                            <div class="flex items-center -mb-4 p-2">
+                                <img src="./icon/check.png" alt="" class="w-6 h-6 m-2 mr-3">
+                                <p class="text-text1 text-[16px] leading-[1.6]">Membentuk Mindset Sebagai Data Analyst</p>
+                            </div>
+                       </div>
+
+                        <div class="flex items-center gap-3 mt-12 ml-4">
+                            <p class="text-text1 text-[16px] mr-2 ">Belajar dari Praktisi</p>
+                            <div class="w-11 h-11 rounded-full shadow-md bg-white border border-text1 flex items-center justify-center z-1 -mr-5">
+                                <img src="./icon/gojek.png" alt="logo" class="w-7 h-7 object-contain">
+                            </div>
+                            <div class="w-11 h-11 rounded-full shadow-md bg-white border border-text1 flex items-center justify-center z-2 -mr-5">
+                                <img src="./icon/gojek.png" alt="logo" class="w-7 h-7 object-contain">
+                            </div>
+                            <div class="w-11 h-11 rounded-full shadow-md bg-white border border-text1 flex items-center justify-center z-3 -mr-5">
+                                <img src="./icon/gojek.png" alt="logo" class="w-7 h-7 object-contain">
+                            </div>
+                        </div>
+
+                        <button class="bg-yellow text-text1 font-semibold w-[280px] h-[50px] rounded-sm mt-4 p-2 cursor-pointer hover:bg-yellow-hover ml-4 my-6">Lihat Detail</button>
+                    </div>
 
             </div>
             <button id="btn-right"

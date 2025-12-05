@@ -24,17 +24,90 @@
 
     <!-- Cards -->
     <div class="w-[90%] overflow-x-hidden relative top-16 left-20">
-        <div class=" z-10 flex flex-nowrap gap-4 pb-2">
-            <img src="https://pbi.belajarbekerja.com/upload/cerita_alumni/85b48487366aca443810b4172406a639.png" onclick="openYoutube('https://www.youtube.com/embed/v=Wkc_2rTXiHE&t=7s')" 
-                class="w-80 h-48 bg-gray-300 rounded-md cursor-pointer hover:scale-105 transition shrink-0"></img>
-            <img src="https://pbi.belajarbekerja.com/upload/cerita_alumni/795fe52da14d118c8c98175860ba49c5.png" onclick="openYoutube('https://www.youtube.com/embed/VIDEO_ID_1?autoplay=1')" 
-                class="w-80 h-48 bg-gray-300 rounded-md cursor-pointer hover:scale-105 transition shrink-0"></img>
-            <img src="https://pbi.belajarbekerja.com/upload/cerita_alumni/85b48487366aca443810b4172406a639.png" onclick="openYoutube('https://www.youtube.com/embed/VIDEO_ID_1?autoplay=1')" 
-                class="w-80 h-48 bg-gray-300 rounded-md cursor-pointer hover:scale-105 transition shrink-0"></img>
-            <img src="https://pbi.belajarbekerja.com/upload/cerita_alumni/dc7c7599930fcce60fdb8a8fbf96ce9b.png" onclick="openYoutube('https://www.youtube.com/embed/VIDEO_ID_1?autoplay=1')" 
-                class="w-80 h-48 bg-gray-300 rounded-md cursor-pointer hover:scale-105 transition shrink-0"></img>
+    <div class="flex flex-nowrap gap-4 pb-2 z-10">
+
+        
+        <div onclick="openYoutube('https://www.youtube.com/embed/Wkc_2rTXiHE?autoplay=1')"
+             class="relative w-80 h-48 rounded-md overflow-hidden cursor-pointer shrink-0 group">
+
+            <img src="https://pbi.belajarbekerja.com/upload/cerita_alumni/85b48487366aca443810b4172406a639.png"
+                 class="w-full h-full object-cover group-hover:scale-105 transition">
+
+            <div class="absolute inset-0 bg-black/40"></div>
+
+            <div class="absolute inset-0 flex items-center justify-center mb-8">
+                <div class="w-14 h-14 bg-white/80 backdrop-blur-md rounded-full flex items-center justify-center group-hover:scale-110 transition">
+                    <span class="text-black text-3xl">▶</span>
+                </div>
+            </div>
+
+            <div class="absolute bottom-0 left-0 w-full p-4 text-white">
+                <p class="font-semibold text-sm">KULIAH SAMBIL MAGANG JADI WEB DEVELOPER? BISA BANGET!</p>
+                <p class="text-xs opacity-80 mt-1">Raka Yogaswara • STIMIK Mardira Indonesia</p>
+            </div>
         </div>
+
+        <div onclick="openYoutube('https://www.youtube.com/embed/Wkc_2rTXiHE?autoplay=1')"
+             class="relative w-80 h-48 rounded-md overflow-hidden cursor-pointer shrink-0 group">
+
+            <img src="https://pbi.belajarbekerja.com/upload/cerita_alumni/795fe52da14d118c8c98175860ba49c5.png"
+                 class="w-full h-full object-cover group-hover:scale-105 transition">
+
+            <div class="absolute inset-0 bg-black/40"></div>
+
+            <div class="absolute inset-0 flex items-center justify-center mb-8">
+                <div class="w-14 h-14 bg-white/80 backdrop-blur-md rounded-full flex items-center justify-center group-hover:scale-110 transition">
+                    <span class="text-black text-3xl">▶</span>
+                </div>
+            </div>
+
+            <div class="absolute bottom-0 left-0 w-full p-4 text-white">
+                <p class="font-semibold text-sm">KULIAH SAMBIL MAGANG JADI WEB DEVELOPER? BISA BANGET!</p>
+                <p class="text-xs opacity-80 mt-1">Raka Yogaswara • STIMIK Mardira Indonesia</p>
+            </div>
+        </div>
+        <div onclick="openYoutube('https://www.youtube.com/embed/Wkc_2rTXiHE?autoplay=1')"
+             class="relative w-80 h-48 rounded-md overflow-hidden cursor-pointer shrink-0 group">
+
+            <img src="https://pbi.belajarbekerja.com/upload/cerita_alumni/85b48487366aca443810b4172406a639.png"
+                 class="w-full h-full object-cover group-hover:scale-105 transition">
+
+            <div class="absolute inset-0 bg-black/40"></div>
+
+            <div class="absolute inset-0 flex items-center justify-center mb-8">
+                <div class="w-14 h-14 bg-white/80 backdrop-blur-md rounded-full flex items-center justify-center group-hover:scale-110 transition">
+                    <span class="text-black text-3xl">▶</span>
+                </div>
+            </div>
+
+            <div class="absolute bottom-0 left-0 w-full p-4 text-white">
+                <p class="font-semibold text-sm">KULIAH SAMBIL MAGANG JADI WEB DEVELOPER? BISA BANGET!</p>
+                <p class="text-xs opacity-80 mt-1">Raka Yogaswara • STIMIK Mardira Indonesia</p>
+            </div>
+        </div>
+        <div onclick="openYoutube('https://www.youtube.com/embed/Wkc_2rTXiHE?autoplay=1')"
+             class="relative w-80 h-48 rounded-md overflow-hidden cursor-pointer shrink-0 group">
+
+            <img src="https://pbi.belajarbekerja.com/upload/cerita_alumni/dc7c7599930fcce60fdb8a8fbf96ce9b.png"
+                 class="w-full h-full object-cover group-hover:scale-105 transition">
+
+            <div class="absolute inset-0 bg-black/40"></div>
+
+            <div class="absolute inset-0 flex items-center justify-center mb-8">
+                <div class="w-14 h-14 bg-white/80 backdrop-blur-md rounded-full flex items-center justify-center group-hover:scale-110 transition">
+                    <span class="text-black text-3xl">▶</span>
+                </div>
+            </div>
+
+            <div class="absolute bottom-0 left-0 w-full p-4 text-white">
+                <p class="font-semibold text-sm">KULIAH SAMBIL MAGANG JADI WEB DEVELOPER? BISA BANGET!</p>
+                <p class="text-xs opacity-80 mt-1">Raka Yogaswara • STIMIK Mardira Indonesia</p>
+            </div>
+        </div>
+
     </div>
+</div>
+
 </div>
 
 

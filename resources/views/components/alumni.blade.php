@@ -14,7 +14,7 @@
                 <
             </button>
             <div id="alumni"
-                class="flex gap-4 overflow-x-hidden  scroll-smooth px-10">
+                class="flex gap-4 overflow-x-hidden  scroll-smooth px-10 w-[91%] mx-auto">
 
                 @foreach(range(1, 8) as $item)
                     <div class="min-w-[290px] h-full bg-white rounded-xl shadow-xl border-x-2 border-gray-200 border">
